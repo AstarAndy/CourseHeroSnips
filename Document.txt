@@ -1,0 +1,7 @@
+docID,catID,topicID,tags,FileName
+1,1,1,Legal Medical Other-Stuff,/User/Shared/Files/doc1
+1,2,1,Legal,/User/SharedFiles/doc2
+1,2,2,Medical Policies Religion,/User/Shared/Files/doc3
+2,1,1,Science General Animals,/User/Shared/FilesDoc4
+2,1,2,Math Algebra Fractions,User/Shared/Files/doc5
+2,1,3,Language Spanish General,User/Shared/Files/doc6
