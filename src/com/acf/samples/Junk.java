@@ -16,12 +16,45 @@ import java.util.Scanner;
 public class Junk {
 	
 
-	  public static void main(String[] args) {
-		  int posNum = 123;
-		  int negNum = -25;
-		  System.out.println("Positive number is: " + (posNum > 0 ? "+" + posNum : posNum) );
-		  System.out.println("Negative number is: " + (negNum > 0 ? "+" + negNum : negNum) );		  
-	  }	   
+	public static void main(String[] args) {
+		
+		int[][] arrSales = new int[12][3];
+	      int i;
+	      int j;
+
+	      String strLine;
+
+	      String txtDisplay = null;
+
+	      txtDisplay = "Output is....\r\n";
+
+	 
+
+	      for (i = 1; i <= 11; i++)
+
+	      {
+
+	             txtDisplay +=  "\t";
+
+	             for (j = 1; j <= 2; j++)
+
+	             {
+
+	                    arrSales[i][j] += i + j;
+
+	                    strLine = arrSales[i][j] + "\t";
+
+	                   txtDisplay += strLine;
+
+	             }
+
+	             txtDisplay += "\r\n";
+
+	      }
+	      
+	      System.out.println("The value is \n'" + txtDisplay + "'\n");
+	     }
+	
 	   /**
 	    * This static method will take an input string, remove all 
 	    * extra spaces, and return the result
