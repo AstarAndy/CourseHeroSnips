@@ -1,7 +1,7 @@
 # Andrew Faust
 # Codementor Code Snips
 
-You are free to clone/copy the code in this repo as nothing is copyrighted.  The purpose of the repo is to illustrate basic Java 8+ functionality and also
+You are free to clone/copy the code in this repo for use in your schoolwork.  **ALL* works here-in are the property of [Andrew C. Faust](https://www.linkedin.com/in/andrew-faust-1026a367/).  The purpose of the repo is to illustrate basic Java 8+ functionality and also
 to answer specific questions posted on [CourseHero](https://www.coursehero.com)
 
 [BinaryTreeIntegers](./src/com/homework/BinaryTreeIntegerOnly.java)
@@ -13,10 +13,3 @@ This is a simple BubbleSort example.  It does **not** split the array up into pa
 
 [QueueFifiExample](./src/com/homework/QueueFifoSample.java)
 This program uses simple java Queue/LinkedList java objects to illustrate how to use a </b>FIFO</b> queue in java
-
-
-
-
-
-
-
