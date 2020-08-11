@@ -15,8 +15,8 @@ This is a simple BubbleSort example.  It does **not** split the array up into pa
 This is a figure-out how manys ways to make change for <i>x</i? dollars
 
 [MorseCodeGuesser](./com/coursehero/challange/MorseCodeGusser) <br />
-This program will take 1, 2, or 3 . or - characters and, if there is a ? (wildcard) character and figure-out how to find all correct answers.  **WARNING** Not fully operational 
-need to try nested calls, loops, and/or patten matching to fix.  Does contain ***map streaming***
+This program will take 1, 2, or 3 . or - characters and, if there is a ? (wildcard) character and figure-out how to find all correct answers.  Made use
+of someString.match(regx), and use an x to represent a . in the signal.  Then just do ***map streaming*** and key.matches(regx) and find all matches
 ~~~java
 private static List<String> lookupWords(int nbrSignals, String patternString) {
 //		Map<Integer, String> collect = map.entrySet().stream()
