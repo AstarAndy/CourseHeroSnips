@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class MorseCodeGuesser {
 
@@ -194,6 +196,32 @@ public class MorseCodeGuesser {
         return possibleLetters;
         
     }
+	
+	/**
+	 * Takes a regx string and attempts to find all the keys that
+	 * both have the proper length and also the proper pattern match
+	 * @param nbrSignals The numer of bytes the complete signal is.  Could
+	 * be 1, 2, or 3
+	 * @param patternString Regx patter to find all including the wildcard ?
+	 * 
+	 * @return List(String) - All letters that match, if any
+	 * 
+	 */
+	private static List<String> lookupWords(int nbrSignals, String patternString) {
+//		Map<Integer, String> collect = map.entrySet().stream()
+//				.filter(x -> x.getKey() == 3)
+//				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+		List<String> wordsFound = new ArrayList<>();
+			signalMap
+			.keySet()
+			.stream()
+			.filter(thisEntry -> {
+				return (thisEntry.length() == nbrSignals && thisEntry.matches(patternString));
+			})
+			.forEach(thisKey -> wordsFound.add(thisKey));
+		
+		return wordsFound;
+	}
 	
 	
 	public static void main(String[] args) {

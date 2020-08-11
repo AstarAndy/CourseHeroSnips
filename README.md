@@ -16,7 +16,25 @@ This is a figure-out how manys ways to make change for <i>x</i? dollars
 
 [MorseCodeGuesser](./com/coursehero/challange/MorseCodeGusser) <br />
 This program will take 1, 2, or 3 . or - characters and, if there is a ? (wildcard) character and figure-out how to find all correct answers.  **WARNING** Not fully operational 
-need to try nested calls, loops, and/or patten matching to fix.
+need to try nested calls, loops, and/or patten matching to fix.  Does contain ***map streaming***
+~~~java
+private static List<String> lookupWords(int nbrSignals, String patternString) {
+//		Map<Integer, String> collect = map.entrySet().stream()
+//				.filter(x -> x.getKey() == 3)
+//				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+		List<String> wordsFound = new ArrayList<>();
+			signalMap
+			.keySet()
+			.stream()
+			.filter(thisEntry -> {
+				return (thisEntry.length() == nbrSignals && thisEntry.matches(patternString));
+			})
+			.forEach(thisKey -> wordsFound.add(thisKey));
+		
+		return wordsFound;
+	}
+~~~
+
 
 [QueueFifiExample](./src/com/homework/QueueFifoSample.java) <br />
 This program uses simple java Queue/LinkedList java objects to illustrate how to use a </b>FIFO</b> queue in java
