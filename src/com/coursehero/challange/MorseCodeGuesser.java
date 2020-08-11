@@ -50,7 +50,7 @@ public class MorseCodeGuesser {
         
         // First if signals is null or empty then just get out
         if (signals == null || signals.isEmpty()) {
-        	return Collections.EMPTY_LIST;
+        	return Collections.emptyList();
         }
         
         /*
