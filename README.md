@@ -14,6 +14,9 @@ This is a simple BubbleSort example.  It does **not** split the array up into pa
 [Challange](./com/coursehero/challange/Challange.java) <br />
 This is a figure-out how manys ways to make change for <i>x</i? dollars
 
+[DesignerCompariable](./com/homework/DesignerCompariable) <br >
+This illustrates implementing a java ***Comparable*** interface
+
 [MorseCodeGuesser](./com/coursehero/challange/MorseCodeGusser) <br />
 This program will take 1, 2, or 3 . or - characters and, if there is a ? (wildcard) character and figure-out how to find all correct answers.  Made use
 of someString.match(regx), and use an x to represent a . in the signal.  Then just do ***map streaming*** and key.matches(regx) and find all matches
@@ -38,6 +41,19 @@ private static List<String> lookupWords(int nbrSignals, String patternString) {
 
 [QueueFifiExample](./src/com/homework/QueueFifoSample.java) <br />
 This program uses simple java Queue/LinkedList java objects to illustrate how to use a </b>FIFO</b> queue in java
+
+[StreamingExamples](./src/com/acf/samples/StreamingExamples) <br />
+This is a good quick way to see how to do various common operations on collection objects using streams.  This includes <br />
+Math Function | Description
+--- | --- | ---
+min | Get the minimun value of a numeric object property
+max | Get the max value of a numeric object property
+sum | Get the sum of all the numeric values of a given object property
+avg | Get the average of all the numeric values of a given object property
+group by | Similar to an ~~~sql SQL Select distinct something, count~~~ this will group a list of items based on a value 
+
+[StudentsFromCsvFile](./com/homework/StudentsFromCsvFile) <br />
+Uses object extending and polymoric behaviour, along with java 8 file i/o features
 
 ## Swing Examples
 
