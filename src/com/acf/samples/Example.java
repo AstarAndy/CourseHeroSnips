@@ -88,5 +88,38 @@ public class Example {
 		
 		
 	}
+	
+	/**
+	 * This method takes a floating point number, a java double
+	 * that represents a price, a pricePoint and, if the price is > than the pricePoint
+	 * then transfer costs will be computed as price * transferMultipler
+	 * @param price
+	 * @return
+	 */
+	public double computeTransferCosts(double price, double pricePoint, double transferMultipler) {
+	
+		// Obvious - if price is 0.0 then just return 0.0
+		if (price == 0.0) {
+			return 0.0;
+		}
+		
+		// The default price point will be 500,000
+		if (pricePoint == 0.0) {
+			pricePoint = 500000.0;
+		}
+		
+		// Default multipler will be 2.5
+		if (transferMultipler == 0.0) {
+			transferMultipler = 2.5;
+		}
+		
+		double transferAmt = 0.0;
+		if (price > pricePoint) {
+			transferAmt = (price * transferMultipler);
+		}
+		
+		return transferAmt;
+		
+	}
 
 }

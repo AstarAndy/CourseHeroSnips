@@ -39,6 +39,12 @@ private static List<String> lookupWords(int nbrSignals, String patternString) {
 [QueueFifiExample](./src/com/homework/QueueFifoSample.java) <br />
 This program uses simple java Queue/LinkedList java objects to illustrate how to use a </b>FIFO</b> queue in java
 
+## Swing Examples
+
+[HedgeYourBet](./src/com/homework/swing/HedgeYourBet) <br />
+This is a simple app that asks a series of questions, captures the end-user's answer, and records scores.  ***Note*** Several individual Collection obects were used 
+to keep track of stuff andm, in reality, an object, that implements a comparator, should have been used for the questions and it's associated answers.
+
 [Schoom Management App](./src/com/homework/swing/SchoolManagementApp) <br />
-This app features a **SWING** UI and makes heavy use of object higherarchies and class excendions.
+This app features a **SWING** UI and makes heavy use of object higherarchies and class extendions.
 
