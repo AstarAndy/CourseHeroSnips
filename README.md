@@ -14,10 +14,10 @@ This is a simple BubbleSort example.  It does **not** split the array up into pa
 [Challange](./com/coursehero/challange/Challange.java) <br />
 This is a figure-out how manys ways to make change for <i>x</i? dollars
 
-[DesignerCompariable](./com/homework/DesignerCompariable) <br >
+[DesignerCompariable](./com/homework/DesignerCompariable.java) <br >
 This illustrates implementing a java ***Comparable*** interface
 
-[MorseCodeGuesser](./com/coursehero/challange/MorseCodeGusser) <br />
+[MorseCodeGuesser](./com/coursehero/challange/MorseCodeGusser.java) <br />
 This program will take 1, 2, or 3 . or - characters and, if there is a ? (wildcard) character and figure-out how to find all correct answers.  Made use
 of someString.match(regx), and use an x to represent a . in the signal.  Then just do ***map streaming*** and key.matches(regx) and find all matches
 ~~~java
@@ -42,25 +42,25 @@ private static List<String> lookupWords(int nbrSignals, String patternString) {
 [QueueFifiExample](./src/com/homework/QueueFifoSample.java) <br />
 This program uses simple java Queue/LinkedList java objects to illustrate how to use a </b>FIFO</b> queue in java
 
-[StreamingExamples](./src/com/acf/samples/StreamingExamples) <br />
+[StreamingExamples](./src/com/acf/samples/StreamingExamples.java) <br />
 This is a good quick way to see how to do various common operations on collection objects using streams.  This includes <br />
 Math Function | Description
---- | --- | ---
-min | Get the minimun value of a numeric object property
-max | Get the max value of a numeric object property
-sum | Get the sum of all the numeric values of a given object property
-avg | Get the average of all the numeric values of a given object property
-group by | Similar to an ~~~sql SQL Select distinct something, count~~~ this will group a list of items based on a value 
+--- | --- |
+min | Get the minimun value of a numeric object property |
+max | Get the max value of a numeric object property |
+sum | Get the sum of all the numeric values of a given object property |
+avg | Get the average of all the numeric values of a given object property |
+group by | Similar to an ~~~sql SQL Select distinct something, count~~~ this will group a list of items based on a value |
 
-[StudentsFromCsvFile](./com/homework/StudentsFromCsvFile) <br />
+[StudentsFromCsvFile](./com/homework/StudentsFromCsvFile.java) <br />
 Uses object extending and polymoric behaviour, along with java 8 file i/o features
 
 ## Swing Examples
 
-[HedgeYourBet](./src/com/homework/swing/HedgeYourBet) <br />
+[HedgeYourBet](./src/com/homework/swing/HedgeYourBet.java) <br />
 This is a simple app that asks a series of questions, captures the end-user's answer, and records scores.  ***Note*** Several individual Collection obects were used 
 to keep track of stuff andm, in reality, an object, that implements a comparator, should have been used for the questions and it's associated answers.
 
-[Schoom Management App](./src/com/homework/swing/SchoolManagementApp) <br />
+[School Management App](./src/com/homework/swing/SchoolManagementApp.java) <br />
 This app features a **SWING** UI and makes heavy use of object higherarchies and class extendions.
 
