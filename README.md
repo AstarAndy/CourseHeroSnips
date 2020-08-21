@@ -38,6 +38,9 @@ private static List<String> lookupWords(int nbrSignals, String patternString) {
 	}
 ~~~
 
+[Dice Class](./src/com/homework/games/Dice.java) <br ?
+This class will take any number of dice, with any number of sides, and execute a roll operation which returns a List of Integers.  ***IntStreams*** 
+are used a good bit for looping 
 
 [QueueFifiExample](./src/com/homework/QueueFifoSample.java) <br />
 This program uses simple java Queue/LinkedList java objects to illustrate how to use a </b>FIFO</b> queue in java
@@ -51,6 +54,7 @@ max | Get the max value of a numeric object property |
 sum | Get the sum of all the numeric values of a given object property |
 avg | Get the average of all the numeric values of a given object property |
 group by | Similar to an ~~~sql SQL Select distinct something, count~~~ this will group a list of items based on a value |
+distinct | Get a get of the number of distinct values of something |
 
 [StudentsFromCsvFile](./com/homework/StudentsFromCsvFile.java) <br />
 Uses object extending and polymoric behaviour, along with java 8 file i/o features

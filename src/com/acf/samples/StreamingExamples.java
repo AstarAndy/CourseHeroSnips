@@ -173,7 +173,15 @@ public class StreamingExamples {
 				.stream()
 				.collect(Collectors.groupingBy(Person::getCity));
 		System.out.println("\nGroup of people by City\n" + salaryByCityMap);
-								
+		
+		// Now get a count of the number of distinct city values
+		
+		Long howMany = peopleList
+							.stream()
+							.map(Person::getCity)
+							.distinct()
+							.count();
+		System.out.println("The distinct number of city values is: " + howMany);
 		
 	}
 
