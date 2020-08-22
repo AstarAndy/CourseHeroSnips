@@ -55,6 +55,7 @@ sum | Get the sum of all the numeric values of a given object property |
 avg | Get the average of all the numeric values of a given object property |
 group by | Similar to an ~~~sql SQL Select distinct something, count~~~ this will group a list of items based on a value |
 distinct | Get a get of the number of distinct values of something |
+count | Can be used to just get a count of the number of elements in the stream
 
 [StudentsFromCsvFile](./com/homework/StudentsFromCsvFile.java) <br />
 Uses object extending and polymoric behaviour, along with java 8 file i/o features

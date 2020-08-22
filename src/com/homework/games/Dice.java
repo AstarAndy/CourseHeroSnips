@@ -45,12 +45,19 @@ public class Dice {
 			
 	}
 	
+	/** Use this to see if you have all the same numbers
+	 * 
+	 * @param listToCheck
+	 * @return boolean true if all the numbers in the list are same
+	 * @see java.util.Stream.distinct
+	 * @see java.util.Stream.count
+	 */
 	public boolean isNaturalSet(List<Integer> listToCheck) {
 		Long howMany = listToCheck
 						.stream()
 						.distinct()
 						.count();
-		return (howMany == 1 ? true : false);
+		return (howMany.equals(1L));
 	}
 
 	public static void main(String[] args) {
