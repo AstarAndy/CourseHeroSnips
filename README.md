@@ -60,14 +60,22 @@ count | Can be used to just get a count of the number of elements in the stream
 [StudentsFromCsvFile](./com/homework/StudentsFromCsvFile.java) <br />
 Uses object extending and polymoric behaviour, along with java 8 file i/o features
 
+## Socket Server / Client
+
+[Socket Server](./src/com/acf/samples/SocketServerExample.java) <br />
+[Socket Client](./src/com/acf/samples/SocketClientExample.java) <br />
+These two are meant to work together.  The socket server run locally at 127.0.0.1 on port 8000.  The ~main~ method will start the server.  The
+Socket client will connect to the socket server.  This is a simple game where the server generates a math problem, sends it to the client, and
+the client sends back and answer.  This continues until the client returns the word ~stop~
+
 ## Swing Examples
 
 [HedgeYourBet](./src/com/homework/swing/HedgeYourBet.java) <br />
 This is a simple app that asks a series of questions, captures the end-user's answer, and records scores.  ***Note*** Several individual Collection obects were used 
 to keep track of stuff andm, in reality, an object, that implements a comparator, should have been used for the questions and it's associated answers.
 
-[Simple JOptionPane Usage](./com/homework/swing/Misc.java) <br />
-Simple use of a ***JOptionPane***
+[Simple JOptionPane Usage](./com/homework/swing/JOptionPaneSamples.java) <br />
+Sample uses of a ***JOptionPane***
 
 [School Management App](./src/com/homework/swing/SchoolManagementApp.java) <br />
 This app features a **SWING** UI and makes heavy use of object higherarchies and class extendions.
