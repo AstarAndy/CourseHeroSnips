@@ -38,11 +38,11 @@ private static List<String> lookupWords(int nbrSignals, String patternString) {
 	}
 ~~~
 
-[Dice Class](./src/com/homework/games/Dice.java) <br ?
+[Dice Class](./src/com/homework/games/Dice.java) <br />
 This class will take any number of dice, with any number of sides, and execute a roll operation which returns a List of Integers.  ***IntStreams*** 
 are used a good bit for looping 
 
-[QueueFifiExample](./src/com/homework/QueueFifoSample.java) <br />
+[QueueFifoExample](./src/com/homework/QueueFifoSample.java) <br />
 This program uses simple java Queue/LinkedList java objects to illustrate how to use a </b>FIFO</b> queue in java
 
 [StreamingExamples](./src/com/acf/samples/StreamingExamples.java) <br />
