@@ -68,6 +68,9 @@ These two are meant to work together.  The socket server run locally at 127.0.0.
 Socket client will connect to the socket server.  This is a simple game where the server generates a math problem, sends it to the client, and
 the client sends back and answer.  This continues until the client returns the word ~stop~
 
+[Thread Pools and Shipping](./com/homework/ThreadsAndShipping.java) <br ?
+This makes use of the `ExecutorService` and fixed thread pools.  Thre threads themselves are simple.
+
 ## Swing Examples
 
 [HedgeYourBet](./src/com/homework/swing/HedgeYourBet.java) <br />
