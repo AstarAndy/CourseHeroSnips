@@ -70,6 +70,7 @@ public class ThreadsAndShipping {
         	jobList.add(est);
         }
         
+        executor.shutdown();
         executor.awaitTermination(5, TimeUnit.SECONDS);
         
         System.out.println("Shipping Details\n");
