@@ -17,7 +17,7 @@ This is a figure-out how manys ways to make change for <i>x</i? dollars
 [DesignerCompariable](./src/com/homework/DesignerCompariable.java) <br />
 This illustrates implementing a java ***Comparable*** interface
 
-[MorseCodeGuesser](./src/com/coursehero/challange/MorseCodeGusser.java) <br />
+[MorseCodeGuesser](./src/com/coursehero/challange/MorseCodeGuesser.java) <br />
 This program will take 1, 2, or 3 . or - characters and, if there is a ? (wildcard) character and figure-out how to find all correct answers.  Made use
 of someString.match(regx), and use an x to represent a . in the signal.  Then just do ***map streaming*** and key.matches(regx) and find all matches
 ~~~java
@@ -71,7 +71,7 @@ the client sends back and answer.  This continues until the client returns the w
 [Thread Pools and Shipping](./src/com/homework/ThreadsAndShipping.java) <br />
 This makes use of the `ExecutorService` and fixed thread pools.  Thre threads themselves are simple.
 
-[Thread Pools and Runables](./src/com/homework/ThreadsAndrunnable.java) <br />
+[Thread Pools and Runables](./src/com/homework/ThreadsAndRunnable.java) <br />
 This makes use of the `ExecutorService`, fixed thread pools, cached (ie dynamic size) thread pools, and also use both Threads and Runnables
 
 
@@ -84,6 +84,6 @@ to keep track of stuff andm, in reality, an object, that implements a comparator
 [Simple JOptionPane Usage](./src/com/homework/swing/JOptionPaneSamples.java) <br />
 Sample uses of a ***JOptionPane***
 
-[School Management App](./src/com/homework/swing/SchoolManagementApp.java) <br />
-This app features a **SWING** UI and makes heavy use of object higherarchies and class extendions.
+[School Management App](./src/com/homework/swing/SchoolManagerApp.java) <br />
+This app features a **SWING** UI and makes heavy use of object higherarchies and class extensions.
 
