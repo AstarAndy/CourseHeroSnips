@@ -14,7 +14,7 @@ This is a simple BubbleSort example.  It does **not** split the array up into pa
 [Challange](./src/com/coursehero/challange/Challange.java) <br />
 This is a figure-out how manys ways to make change for <i>x</i? dollars
 
-[DesignerCompariable](./src/com/homework/DesignerCompariable.java) <br >
+[DesignerCompariable](./src/com/homework/DesignerCompariable.java) <br />
 This illustrates implementing a java ***Comparable*** interface
 
 [MorseCodeGuesser](./src/com/coursehero/challange/MorseCodeGusser.java) <br />
@@ -68,10 +68,10 @@ These two are meant to work together.  The socket server run locally at 127.0.0.
 Socket client will connect to the socket server.  This is a simple game where the server generates a math problem, sends it to the client, and
 the client sends back and answer.  This continues until the client returns the word ~stop~
 
-[Thread Pools and Shipping](./src/com/homework/ThreadsAndShipping.java) <br ?
+[Thread Pools and Shipping](./src/com/homework/ThreadsAndShipping.java) <br />
 This makes use of the `ExecutorService` and fixed thread pools.  Thre threads themselves are simple.
 
-[Thread Pools and Runables](./src/com/homework/ThreadsAndrunnable.java) <br ?
+[Thread Pools and Runables](./src/com/homework/ThreadsAndrunnable.java) <br />
 This makes use of the `ExecutorService`, fixed thread pools, cached (ie dynamic size) thread pools, and also use both Threads and Runnables
 
 
