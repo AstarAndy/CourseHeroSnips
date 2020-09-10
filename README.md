@@ -57,7 +57,7 @@ group by | Similar to an ~~~sql SQL Select distinct something, count~~~ this wil
 distinct | Get a get of the number of distinct values of something |
 count | Can be used to just get a count of the number of elements in the stream
 
-[StudentsFromCsvFile](./com/homework/StudentsFromCsvFile.java) <br />
+[StudentsFromCsvFile](./src/com/homework/StudentsFromCsvFile.java) <br />
 Uses object extending and polymoric behaviour, along with java 8 file i/o features
 
 ## Socket Server / Client
@@ -68,10 +68,10 @@ These two are meant to work together.  The socket server run locally at 127.0.0.
 Socket client will connect to the socket server.  This is a simple game where the server generates a math problem, sends it to the client, and
 the client sends back and answer.  This continues until the client returns the word ~stop~
 
-[Thread Pools and Shipping](./com/homework/ThreadsAndShipping.java) <br ?
+[Thread Pools and Shipping](./src/com/homework/ThreadsAndShipping.java) <br ?
 This makes use of the `ExecutorService` and fixed thread pools.  Thre threads themselves are simple.
 
-[Thread Pools and Runables](./com/homework/ThreadsAndrunnable.java) <br ?
+[Thread Pools and Runables](./src/com/homework/ThreadsAndrunnable.java) <br ?
 This makes use of the `ExecutorService`, fixed thread pools, cached (ie dynamic size) thread pools, and also use both Threads and Runnables
 
 
@@ -81,7 +81,7 @@ This makes use of the `ExecutorService`, fixed thread pools, cached (ie dynamic 
 This is a simple app that asks a series of questions, captures the end-user's answer, and records scores.  ***Note*** Several individual Collection obects were used 
 to keep track of stuff andm, in reality, an object, that implements a comparator, should have been used for the questions and it's associated answers.
 
-[Simple JOptionPane Usage](./com/homework/swing/JOptionPaneSamples.java) <br />
+[Simple JOptionPane Usage](./src/com/homework/swing/JOptionPaneSamples.java) <br />
 Sample uses of a ***JOptionPane***
 
 [School Management App](./src/com/homework/swing/SchoolManagementApp.java) <br />

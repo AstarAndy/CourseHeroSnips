@@ -18,42 +18,33 @@ public class Junk {
 
 	public static void main(String[] args) {
 		
-		int[][] arrSales = new int[12][3];
-	      int i;
-	      int j;
+		Scanner stdIn = new Scanner (System.in);
+        int pain; //pain level variable
+        char hurt; // yes or no if hurting today
+        System.out.print("Are you in pain today? (y or n): "); // asks user if in pain
+        hurt = stdIn.next().charAt(0); // assigns input to hurt
+       if (hurt == 'y') { // if statement to determine level of pain if there is pain
 
-	      String strLine;
+             System.out.print("What is your pain scale today? (1-10): "); // asks user for pain level
+             pain = stdIn.nextInt(); // assigns user input to pain
+             
+             if (pain < 6) {
+                 System.out.println("Get up and walk around!");            	 
+             }
+             if (pain < 8) {
+            	 System.out.println("Do your streches and use ice.");
+             }
+             if (pain < 11) {
+            	 System.out.println("Take another set of pills and rest.");
+             } else {
+            	 System.out.println("You entered a number greater than 10.");
+             }
 
-	      String txtDisplay = null;
-
-	      txtDisplay = "Output is....\r\n";
-
-	 
-
-	      for (i = 1; i <= 11; i++)
-
-	      {
-
-	             txtDisplay +=  "\t";
-
-	             for (j = 1; j <= 2; j++)
-
-	             {
-
-	                    arrSales[i][j] += i + j;
-
-	                    strLine = arrSales[i][j] + "\t";
-
-	                   txtDisplay += strLine;
-
-	             }
-
-	             txtDisplay += "\r\n";
-
-	      }
-	      
-	      System.out.println("The value is \n'" + txtDisplay + "'\n");
-	     }
+       } else {
+    	   System.out.println("Enjoy not being in pain!"); // if no pain produces this ouput	
+       }
+       
+	}
 	
 	   /**
 	    * This static method will take an input string, remove all 
