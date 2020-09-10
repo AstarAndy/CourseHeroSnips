@@ -11,13 +11,13 @@ This is a **partial** BinarySearchTree implementation that will add and then an 
 [BubbleSort](./src/com/homework/BubbleSort.java) <br />
 This is a simple BubbleSort example.  It does **not** split the array up into partitions.  Simple bubble  
 
-[Challange](./com/coursehero/challange/Challange.java) <br />
+[Challange](./src/com/coursehero/challange/Challange.java) <br />
 This is a figure-out how manys ways to make change for <i>x</i? dollars
 
-[DesignerCompariable](./com/homework/DesignerCompariable.java) <br >
+[DesignerCompariable](./src/com/homework/DesignerCompariable.java) <br >
 This illustrates implementing a java ***Comparable*** interface
 
-[MorseCodeGuesser](./com/coursehero/challange/MorseCodeGusser.java) <br />
+[MorseCodeGuesser](./src/com/coursehero/challange/MorseCodeGusser.java) <br />
 This program will take 1, 2, or 3 . or - characters and, if there is a ? (wildcard) character and figure-out how to find all correct answers.  Made use
 of someString.match(regx), and use an x to represent a . in the signal.  Then just do ***map streaming*** and key.matches(regx) and find all matches
 ~~~java
